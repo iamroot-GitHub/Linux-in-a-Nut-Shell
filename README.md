@@ -1,8 +1,7 @@
 # Linux-in-a-Nut-Shell
 ## Shortcuts
 - Tab -
-- Ctrl + A
--   This shortcut will move the cursor to the beginning of the line.
+- Ctrl + A - this shortcut will move the cursor to the beginning of the line.
 - Ctrl + C
 - Ctrl + D
 - Ctrl + E

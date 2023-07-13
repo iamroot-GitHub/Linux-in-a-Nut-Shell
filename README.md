@@ -1,6 +1,6 @@
 # Linux-in-a-Nut-Shell
 ## Table of Contents
-[Shortcuts](Shortcuts)
+1. [Shortcuts](Shortcuts)
 ### Shortcuts
 - Tab - 
 - Ctrl + A - this shortcut will move the cursor to the beginning of the line.

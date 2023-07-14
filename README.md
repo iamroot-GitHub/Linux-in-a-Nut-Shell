@@ -5,7 +5,7 @@
 3.  [Commands Related to Administering Users and Groups](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#commands-related-to-administering-users-and-groups)
 4.  [Permissions Configuration Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#permissions-configuration-commands)
 5.  [File Management Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#file-management-commands)
-6.  [Commands for Authoring Text Files](
+6.  [Commands for Authoring Text Files](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#commands-for-authoring-text-files)
 7.  [Software Management Commands](
 8.  [Commands for Managing Devices, Processes, Memory and the Kernal](
 9.  [Service Management Commands](

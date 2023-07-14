@@ -22,8 +22,9 @@
 ### Basic Linux Commands
 |   Command   |   Syntax   |   Purpose   |
 |---|---|---|---|---|
-|   cat   |   cat [file-name   |   Display the contents of a text file on the screen.   |
-|   |   |   |
+|   cat   |   cat [file-name]   |   Display the contents of a text file on the screen.   |
+|   cd    |   cd /etc           |   Change from one directory to another.|
+|      |   |   |
 |   |   |   |
 - cat         cat [file-name]       Display the contents of a text file on the screen.
 - cd          cd /etc               Change from one directory to another.

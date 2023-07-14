@@ -1,9 +1,21 @@
 # Linux in a Nut $hell
 ## Table of Contents
-1. [Shortcuts](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#shortcuts)
-2. [Basic Linux Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#basic-linux-commands)
-3. [Commands Related to Administering Users and Groups](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#commands-related-to-administering-users-and-groups)
-4. [Permissions Configuration Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#permissions-configuration-commands)
+1.  [Shortcuts](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#shortcuts)
+2.  [Basic Linux Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#basic-linux-commands)
+3.  [Commands Related to Administering Users and Groups](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#commands-related-to-administering-users-and-groups)
+4.  [Permissions Configuration Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#permissions-configuration-commands)
+5.  [File Management Commands](
+6.  [Commands for Authoring Text Files](
+7.  [Software Management Commands](
+8.  [Commands for Managing Devices, Processes, Memory and the Kernal](
+9.  [Service Management Commands](
+10. [Network Setting Configuration Commands](
+11. [Network Security Configuration Commands](
+12. [Security Management Commands](
+13. [Script Implementation Commands](
+14. [IaC Commands](
+15. [Commands for Managing Containers](
+16. [Linux Installation Commands](
 ### Shortcuts
 |        |                                                                |
 |--------|----------------------------------------------------------------|
@@ -54,4 +66,5 @@
 ### Security Management Commands
 ### Script Implementation Commands
 ### IaC Commands
-### 
+### Commands for Managing Containers
+### Linux Installation Commands

@@ -7,7 +7,7 @@
 5.  [File Management Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#file-management-commands)
 6.  [Commands for Authoring Text Files](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#commands-for-authoring-text-files)
 7.  [Software Management Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#software-management-commands)
-8.  [Commands for Managing Devices, Processes, Memory and the Kernal](
+8.  [Commands for Managing Devices, Processes, Memory and the Kernal](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#commands-for-managing-devices-processes-memory-and-the-kernal)
 9.  [Service Management Commands](
 10. [Network Setting Configuration Commands](
 11. [Network Security Configuration Commands](

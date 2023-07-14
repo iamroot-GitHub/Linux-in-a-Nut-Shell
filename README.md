@@ -20,7 +20,7 @@
 - Ctrl + Y - 
 - Ctrl + Z - 
 ### Basic Linux Commands
-|Command   |   |   |   |   |
+|   Command   |   Syntax   |   Purpose   |
 |---|---|---|---|---|
 |   |   |   |   |   |
 |   |   |   |   |   |

@@ -5,20 +5,22 @@
 3. [Commands Related to Administering Users and Groups](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#commands-related-to-administering-users-and-groups)
 4. [Permissions Configuration Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#permissions-configuration-commands)
 ### Shortcuts
-- Tab - 
-- Ctrl + A - this shortcut will move the cursor to the beginning of the line.
-- Ctrl + C - this will stop (terminate) a running program immediately.
-- Ctrl + D - 
-- Ctrl + E - 
-- Ctrl + K - 
-- Ctrl + L - 
-- Ctrl + N - 
-- Ctrl + P - 
-- Ctrl + R - 
-- Ctrl + U - 
-- Ctrl + W - 
-- Ctrl + Y - 
-- Ctrl + Z - 
+|        |                                                                |
+|--------|----------------------------------------------------------------|
+|Tab     |                                                                |
+|Ctrl + A|This shortcut will move the cursor to the beginning of the line.|
+|Ctrl + C|This will stop (terminate) a running program immediately.       |
+|Ctrl + D|                                                                | 
+|Ctrl + E|                                                                | 
+|Ctrl + K|                                                                | 
+|Ctrl + L|                                                                |
+|Ctrl + N|                                                                | 
+|Ctrl + P|                                                                | 
+|Ctrl + R|                                                                | 
+|Ctrl + U|                                                                | 
+|Ctrl + W|                                                                | 
+|Ctrl + Y|                                                                | 
+|Ctrl + Z|                                                                |
 ### Basic Linux Commands
 |Command   |Syntax            |Purpose                                                             |
 |----------|------------------|--------------------------------------------------------------------|
@@ -31,9 +33,10 @@
 |whatis    |whatis [command]  |Procvides a brief description of the specified command.             |
 |whoami    |whoami            |Displays the username of the current user.                          |
 ### Commands Related to Administering Users and Groups
-  Command     Syntax                Purpose
-- passwd      passwd [user-name]    Manage user passwords.
-- chage       chage -options        Manage password settings.
-- w           w                     Display current users on the system.
-- who         who                   Display current users on the system.
+|Command   |Syntax            |Purpose                                                             |
+|----------|------------------|--------------------------------------------------------------------|
+|passwd    |passwd [user-name]|Manage user passwords.                                              |
+|chage     |chage -options    |Manage password settings.                                           |
+|w         |w                 |Display current users on the system.                                |
+|who       |who               |Display current users on the system.                                |
 ### Permissions Configuration Commands

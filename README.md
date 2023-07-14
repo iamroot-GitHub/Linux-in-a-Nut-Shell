@@ -26,8 +26,6 @@
 |   cd        |   cd /etc           |   Change from one directory to another.                |
 |      |   |   |
 |   |   |   |
-- cat         cat [file-name]       Display the contents of a text file on the screen.
-- cd          cd /etc               Change from one directory to another.
 - ls          ls [option]           Lists the contents of the current directory.
 - man         man [command]         Display manual, or help, pages for a specific command.
 - pwd         pwd                   Displays the present working directory.

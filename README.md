@@ -44,3 +44,14 @@
 |----------|-------------------------------------------|---------------------------------------------------------------------|
 |umask     |unmask {number}                            |Alter the default permissions on newly created files and directories.|
 |chmod     |chmod [options] {mode}{file/directory name}|Modify the permissions of a file or directory.                       |
+### File Management Commands
+### Commands for Authoring Text Files
+### Software Management Commands
+### Commands for Managing Devices, Processes, Memory and the Kernal
+### Service Management Commands
+### Network Setting Configuration Commands
+### Network Security Configuration Commands
+### Security Management Commands
+### Script Implementation Commands
+### IaC Commands
+### 

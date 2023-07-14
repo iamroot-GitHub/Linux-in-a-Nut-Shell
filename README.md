@@ -39,4 +39,7 @@
 |chage     |chage -options    |Manage password settings.                                           |
 |w         |w                 |Display current users on the system.                                |
 |who       |who               |Display current users on the system.                                |
+|useradd   |useradd
+            -options
+            argument          |Add a user.                                                         |
 ### Permissions Configuration Commands

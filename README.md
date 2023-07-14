@@ -8,14 +8,14 @@
 6.  [Commands for Authoring Text Files](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#commands-for-authoring-text-files)
 7.  [Software Management Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#software-management-commands)
 8.  [Commands for Managing Devices, Processes, Memory and the Kernal](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#commands-for-managing-devices-processes-memory-and-the-kernal)
-9.  [Service Management Commands](
-10. [Network Setting Configuration Commands](
-11. [Network Security Configuration Commands](
-12. [Security Management Commands](
-13. [Script Implementation Commands](
-14. [IaC Commands](
-15. [Commands for Managing Containers](
-16. [Linux Installation Commands](
+9.  [Service Management Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell#service-management-commands)
+10. [Network Setting Configuration Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell#network-setting-configuration-commands)
+11. [Network Security Configuration Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell#network-security-configuration-commands)
+12. [Security Management Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell#security-management-commands)
+13. [Script Implementation Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell#script-implementation-commands)
+14. [IaC Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell#iac-commands)
+15. [Commands for Managing Containers](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell#commands-for-managing-containers)
+16. [Linux Installation Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell#linux-installation-commands)
 ### Shortcuts
 |        |                                                                |
 |--------|----------------------------------------------------------------|

@@ -1,8 +1,9 @@
 # Linux in a Nut $hell
 ## Table of Contents
-1. [Shortcuts]
+1. [Shortcuts](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#shortcuts)
 2. [Basic Linux Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#basic-linux-commands)
 3. [Commands Related to Administering Users and Groups](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell/blob/main/README.md#commands-related-to-administering-users-and-groups)
+4. [Permissions Configuration Commands](
 ### Shortcuts
 - Tab - 
 - Ctrl + A - this shortcut will move the cursor to the beginning of the line.
@@ -20,3 +21,4 @@
 - Ctrl + Z - 
 ### Basic Linux Commands
 ### Commands Related to Administering Users and Groups
+### Permissions Configuration Commands

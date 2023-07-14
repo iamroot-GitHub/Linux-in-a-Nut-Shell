@@ -22,24 +22,25 @@
 |Ctrl + Y|                                                                | 
 |Ctrl + Z|                                                                |
 ### Basic Linux Commands
-|Command   |Syntax            |Purpose                                                             |
-|----------|------------------|--------------------------------------------------------------------|
-|cat       |cat [file-name]   |Display the contents of a text file on the screen.                  |
-|cd        |cd /etc           |Change from one directory to another.                               |
-|ls        |ls [option]       |Lists the contents of the current directory.                        |
-|man       |man [command]     |Display manual, or help, pages for a specific command.              |
-|pwd       |pwd               |Displays the present working directory.                             |
-|touch     |touch [file-name] |Create a new empty file or update the timestamp on an existing file.|
-|whatis    |whatis [command]  |Procvides a brief description of the specified command.             |
-|whoami    |whoami            |Displays the username of the current user.                          |
+|Command   |Syntax                                     |Purpose                                                              |
+|----------|-------------------------------------------|---------------------------------------------------------------------|
+|cat       |cat [file-name]                            |Display the contents of a text file on the screen.                   |
+|cd        |cd /etc                                    |Change from one directory to another.                                |
+|ls        |ls [option]                                |Lists the contents of the current directory.                         |
+|man       |man [command]                              |Display manual, or help, pages for a specific command.               |
+|pwd       |pwd                                        |Displays the present working directory.                              |
+|touch     |touch [file-name]                          |Create a new empty file or update the timestamp on an existing file. |
+|whatis    |whatis [command]                           |Procvides a brief description of the specified command.              |
+|whoami    |whoami                                     |Displays the username of the current user.                           |
 ### Commands Related to Administering Users and Groups
-|Command   |Syntax            |Purpose                                                             |
-|----------|------------------|--------------------------------------------------------------------|
-|passwd    |passwd [user-name]|Manage user passwords.                                              |
-|chage     |chage -options    |Manage password settings.                                           |
-|w         |w                 |Display current users on the system.                                |
-|who       |who               |Display current users on the system.                                |
-|useradd   |useradd
-            -options
-            argument          |Add a user.                                                         |
+|Command   |Syntax                                     |Purpose                                                              |
+|----------|-------------------------------------------|---------------------------------------------------------------------|
+|passwd    |passwd [user-name]                         |Manage user passwords.                                               |
+|chage     |chage -options                             |Manage password settings.                                            |
+|w         |w                                          |Display current users on the system.                                 |
+|who       |who                                        |Display current users on the system.                                 |
 ### Permissions Configuration Commands
+|Command   |Syntax                                     |Purpose                                                              |
+|----------|-------------------------------------------|---------------------------------------------------------------------|
+|umask     |unmask {number}                            |Alter the default permissions on newly created files and directories.|
+|chmod     |chmod [options] {mode}{file/directory name}|Modify the permissions of a file or directory.                       |

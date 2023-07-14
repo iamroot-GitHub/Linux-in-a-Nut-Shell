@@ -1,4 +1,4 @@
-# Linux-in-a-Nut-Shell
+# Linux in a Nut $hell
 ## Table of Contents
 1. [Shortcuts](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell#shortcuts)
 ### Shortcuts

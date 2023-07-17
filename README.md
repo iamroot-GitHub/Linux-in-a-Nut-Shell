@@ -22,7 +22,7 @@
 |Tab     |Autocomplete or show all possilbe results.                                               |
 |Ctrl + A|Move the cursor to the beginning of the line.                                            |
 |Ctrl + C|Stop (terminate) a running program immediately.                                          |
-|Ctrl + D|Log out of current terminal (close SSH connection or terminal application.               | 
+|Ctrl + D|Log out of current terminal (close SSH connection or terminal application).              | 
 |Ctrl + E|Move the cursor to the end of the line.                                                  | 
 |Ctrl + K|Erase everything from the current cursor position to the end of the line.                | 
 |Ctrl + L|Clear the terminal screen.                                                               |

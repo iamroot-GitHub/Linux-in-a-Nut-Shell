@@ -17,22 +17,22 @@
 15. [Commands for Managing Containers](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell#commands-for-managing-containers)
 16. [Linux Installation Commands](https://github.com/iamroot-GitHub/Linux-in-a-Nut-Shell#linux-installation-commands)
 ### Shortcuts
-|        |                                                                |
-|--------|----------------------------------------------------------------|
-|Tab     |                                                                |
-|Ctrl + A|This shortcut will move the cursor to the beginning of the line.|
-|Ctrl + C|This will stop (terminate) a running program immediately.       |
-|Ctrl + D|                                                                | 
-|Ctrl + E|                                                                | 
-|Ctrl + K|                                                                | 
-|Ctrl + L|                                                                |
-|Ctrl + N|                                                                | 
-|Ctrl + P|                                                                | 
-|Ctrl + R|                                                                | 
-|Ctrl + U|                                                                | 
-|Ctrl + W|                                                                | 
-|Ctrl + Y|                                                                | 
-|Ctrl + Z|                                                                |
+|Shortcut|Action                                                                                   |
+|--------|-----------------------------------------------------------------------------------------|
+|Tab     |Autocomplete or show all possilbe results.                                               |
+|Ctrl + A|Move the cursor to the beginning of the line.                                            |
+|Ctrl + C|Stop (terminate) a running program immediately.                                          |
+|Ctrl + D|Log out of current terminal (close SSH connection or terminal application.               | 
+|Ctrl + E|Move the cursor to the end of the line.                                                  | 
+|Ctrl + K|Erase everything from the current cursor position to the end of the line.                | 
+|Ctrl + L|Clear the terminal screen.                                                               |
+|Ctrl + N|Displays the next command. Use this shortcut in conjunction with Ctrl + P.               | 
+|Ctrl + P|View the previous command. Press repeatedly to keep on going back in the command history.| 
+|Ctrl + R|Perform a search in command history.                                                     | 
+|Ctrl + U|Erase everything from the current cursor position to the beginning of the line.          | 
+|Ctrl + W|Erase the word preceding the cursor position.                                            | 
+|Ctrl + Y|Paste the erased text of the Ctrl + K, Ctrl + U, and Ctrl + W shortcuts.                 | 
+|Ctrl + Z|Suspend a running program and give you control of the shell.                             |
 ### Basic Linux Commands
 |Command   |Syntax           |Purpose                                                             |
 |----------|-----------------|--------------------------------------------------------------------|

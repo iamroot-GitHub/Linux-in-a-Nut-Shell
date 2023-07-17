@@ -34,23 +34,23 @@
 |Ctrl + Y|                                                                | 
 |Ctrl + Z|                                                                |
 ### Basic Linux Commands
-|Command   |Syntax                                     |Purpose                                                             |
-|----------|-------------------------------------------|--------------------------------------------------------------------|
-|cat       |cat [file-name]                            |Display the contents of a text file on the screen.                  |
-|cd        |cd /etc                                    |Change from one directory to another.                               |
-|ls        |ls [option]                                |Lists the contents of the current directory.                        |
-|man       |man [command]                              |Display manual, or help, pages for a specific command.              |
-|pwd       |pwd                                        |Displays the present working directory.                             |
-|touch     |touch [file-name]                          |Create a new empty file or update the timestamp on an existing file.|
-|whatis    |whatis [command]                           |Procvides a brief description of the specified command.             |
-|whoami    |whoami                                     |Displays the username of the current user.                          |
+|Command   |Syntax           |Purpose                                                             |
+|----------|-----------------|--------------------------------------------------------------------|
+|cat       |cat [file-name]  |Display the contents of a text file on the screen.                  |
+|cd        |cd /etc          |Change from one directory to another.                               |
+|ls        |ls [option]      |Lists the contents of the current directory.                        |
+|man       |man [command]    |Display manual, or help, pages for a specific command.              |
+|pwd       |pwd              |Displays the present working directory.                             |
+|touch     |touch [file-name]|Create a new empty file or update the timestamp on an existing file.|
+|whatis    |whatis [command] |Procvides a brief description of the specified command.             |
+|whoami    |whoami           |Displays the username of the current user.                          |
 ### Commands Related to Administering Users and Groups
 |Command   |Syntax                                     |Purpose                             |
-|----------|-------------------------------------------|------------------------------------|
-|passwd    |passwd [user-name]                         |Manage user passwords.              |
-|chage     |chage -options                             |Manage password settings.           |
-|w         |w                                          |Display current users on the system.|
-|who       |who                                        |Display current users on the system.|
+|----------|------------------|------------------------------------|
+|passwd    |passwd [user-name]|Manage user passwords.              |
+|chage     |chage -options    |Manage password settings.           |
+|w         |w                 |Display current users on the system.|
+|who       |who               |Display current users on the system.|
 ### Permissions Configuration Commands
 |Command   |Syntax                                     |Purpose                                                              |
 |----------|-------------------------------------------|---------------------------------------------------------------------|
@@ -73,7 +73,4 @@
 ### Linux Installation Commands
 |Command       |Syntax                                     |Purpose                                                              |
 |------------- |-------------------------------------------|---------------------------------------------------------------------|
-|mkinitrd      |mkinitrd                                   |Create the initrd image for preloading the kernal modules.           |
-|              |[options]                                  |
-|grub2-install |                                           |                                                                     |
-|grub2-mkconfig|chmod [options] {mode}{file/directory name}|Modify the permissions of a file or directory.                       |
+

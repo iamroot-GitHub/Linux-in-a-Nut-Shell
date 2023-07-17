@@ -71,3 +71,9 @@
 |git    |git [options]{subcommand}|Manage Git repositories.|
 ### Commands for Managing Containers
 ### Linux Installation Commands
+|Command       |Syntax                                     |Purpose                                                              |
+|------------- |-------------------------------------------|---------------------------------------------------------------------|
+|mkinitrd      |mkinitrd                                   |Create the initrd image for preloading the kernal modules.           |
+|              |[options]                                  |
+|grub2-install |                                           |                                                                     |
+|grub2-mkconfig|chmod [options] {mode}{file/directory name}|Modify the permissions of a file or directory.                       |

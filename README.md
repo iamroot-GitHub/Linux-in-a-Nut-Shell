@@ -34,23 +34,48 @@
 |Ctrl + Y|Paste the erased text of the Ctrl + K, Ctrl + U, and Ctrl + W shortcuts.                 | 
 |Ctrl + Z|Suspend a running program and give you control of the shell.                             |
 ### Basic Linux Commands
-|Command   |Syntax           |Purpose                                                             |
-|----------|-----------------|--------------------------------------------------------------------|
-|cat       |cat [file-name]  |Display the contents of a text file on the screen.                  |
-|cd        |cd /etc          |Change from one directory to another.                               |
-|ls        |ls [option]      |Lists the contents of the current directory.                        |
-|man       |man [command]    |Display manual, or help, pages for a specific command.              |
-|pwd       |pwd              |Displays the present working directory.                             |
-|touch     |touch [file-name]|Create a new empty file or update the timestamp on an existing file.|
-|whatis    |whatis [command] |Procvides a brief description of the specified command.             |
-|whoami    |whoami           |Displays the username of the current user.                          |
+|Command   |Syntax     |Purpose                                                             |
+|----------|-----------|--------------------------------------------------------------------|
+|ls        |ls [option]|Lists the contents of the current directory.                        |
+|cat       |cat        |Display the contents of a text file on the screen.                  |
+|          |[file-name]|                                                                    |
+|cd        |cd /etc    |Change from one directory to another.                               |
+|pwd       |pwd        |Displays the present working directory.                             |
+|whoami    |whoami     |Displays the username of the current user.                          |
+|touch     |touch      |Create a new empty file or update the timestamp on an existing file.|
+|          |[file-name]|                                                                    |
+|man       |man        |Display manual, or help, pages for a specific command.              |
+|          |[command]  |                                                                    |
+|whatis    |whatis     |Procvides a brief description of the specified command.             |
+|          |[command]  |                                                                    |
 ### Commands Related to Administering Users and Groups
-|Command   |Syntax                                     |Purpose    |
-|----------|------------------|------------------------------------|
-|passwd    |passwd [user-name]|Manage user passwords.              |
-|chage     |chage -options    |Manage password settings.           |
-|w         |w                 |Display current users on the system.|
-|who       |who               |Display current users on the system.|
+|Command   |Syntax            |Purpose                                           |
+|----------|------------------|--------------------------------------------------|
+|passwd    |passwd [user-name]|Manage user passwords.                            |
+|chage     |chage -options    |Manage password settings.                         |
+|w         |w                 |Display current users on the system.              |
+|who       |who               |Display current users on the system.              |
+|useradd   |useradd           |Add a user.                                       |
+|          |-options          |                                                  |
+|          |argument          |                                                  |
+|usermod   |usermod           |Modify a user.                                    |
+|          |-options          |                                                  |
+|          |argument          |                                                  |
+|userdel   |userdel           |Delete a user.                                    |
+|          |[user-name]       |                                                  |
+|id        |id [user-name]    |Gather and display account information.           |
+|groupadd  |groupadd          |Create a new group.                               |
+|          |[group-name]      |                                                  |
+|groupmod  |groupmod          |Modify an existing group.                         |
+|          |-options          |                                                  |
+|          |argument          |                                                  |
+|groupdel  |groupdel          |Remove an existing group.                         |
+|          |[group-name]      |                                                  |
+|su        |su - [user-name]  |Switch user to the specified user or account name.|
+|sudo      |sudo -options     |Exercise delegated privileges.                    |
+|          |[command]         |                                                  |
+|pkexec    |pkexec program    |Allows an authorized user to execute an action.   |
+|          |argument          |                                                  |
 ### Permissions Configuration Commands
 |Command   |Syntax                                     |Purpose                                                              |
 |----------|-------------------------------------------|---------------------------------------------------------------------|

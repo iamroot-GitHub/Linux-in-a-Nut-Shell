@@ -34,53 +34,80 @@
 |Ctrl + Y|Paste the erased text of the Ctrl + K, Ctrl + U, and Ctrl + W shortcuts.                 | 
 |Ctrl + Z|Suspend a running program and give you control of the shell.                             |
 ### Basic Linux Commands
-|Command   |Syntax     |Purpose                                                             |
-|----------|-----------|--------------------------------------------------------------------|
-|ls        |ls [option]|Lists the contents of the current directory.                        |
-|cat       |cat        |Display the contents of a text file on the screen.                  |
-|          |[file-name]|                                                                    |
-|cd        |cd /etc    |Change from one directory to another.                               |
-|pwd       |pwd        |Displays the present working directory.                             |
-|whoami    |whoami     |Displays the username of the current user.                          |
-|touch     |touch      |Create a new empty file or update the timestamp on an existing file.|
-|          |[file-name]|                                                                    |
-|man       |man        |Display manual, or help, pages for a specific command.              |
-|          |[command]  |                                                                    |
-|whatis    |whatis     |Procvides a brief description of the specified command.             |
-|          |[command]  |                                                                    |
+|Command|Syntax     |Purpose                                                             |
+|-------|-----------|--------------------------------------------------------------------|
+|ls     |ls [option]|Lists the contents of the current directory.                        |
+|cat    |cat        |Display the contents of a text file on the screen.                  |
+|       |[file-name]|                                                                    |
+|cd     |cd /etc    |Change from one directory to another.                               |
+|pwd    |pwd        |Displays the present working directory.                             |
+|whoami |whoami     |Displays the username of the current user.                          |
+|touch  |touch      |Create a new empty file or update the timestamp on an existing file.|
+|       |[file-name]|                                                                    |
+|man    |man        |Display manual, or help, pages for a specific command.              |
+|       |[command]  |                                                                    |
+|whatis |whatis     |Procvides a brief description of the specified command.             |
+|       |[command]  |                                                                    |
 ### Commands Related to Administering Users and Groups
-|Command   |Syntax            |Purpose                                           |
-|----------|------------------|--------------------------------------------------|
-|passwd    |passwd [user-name]|Manage user passwords.                            |
-|chage     |chage -options    |Manage password settings.                         |
-|w         |w                 |Display current users on the system.              |
-|who       |who               |Display current users on the system.              |
-|useradd   |useradd           |Add a user.                                       |
-|          |-options          |                                                  |
-|          |argument          |                                                  |
-|usermod   |usermod           |Modify a user.                                    |
-|          |-options          |                                                  |
-|          |argument          |                                                  |
-|userdel   |userdel           |Delete a user.                                    |
-|          |[user-name]       |                                                  |
-|id        |id [user-name]    |Gather and display account information.           |
-|groupadd  |groupadd          |Create a new group.                               |
-|          |[group-name]      |                                                  |
-|groupmod  |groupmod          |Modify an existing group.                         |
-|          |-options          |                                                  |
-|          |argument          |                                                  |
-|groupdel  |groupdel          |Remove an existing group.                         |
-|          |[group-name]      |                                                  |
-|su        |su - [user-name]  |Switch user to the specified user or account name.|
-|sudo      |sudo -options     |Exercise delegated privileges.                    |
-|          |[command]         |                                                  |
-|pkexec    |pkexec program    |Allows an authorized user to execute an action.   |
-|          |argument          |                                                  |
+|Command |Syntax            |Purpose                                           |
+|--------|------------------|--------------------------------------------------|
+|passwd  |passwd [user-name]|Manage user passwords.                            |
+|chage   |chage -options    |Manage password settings.                         |
+|w       |w                 |Display current users on the system.              |
+|who     |who               |Display current users on the system.              |
+|useradd |useradd           |Add a user.                                       |
+|        |-options          |                                                  |
+|        |argument          |                                                  |
+|usermod |usermod           |Modify a user.                                    |
+|        |-options          |                                                  |
+|        |argument          |                                                  |
+|userdel |userdel           |Delete a user.                                    |
+|        |[user-name]       |                                                  |
+|id      |id [user-name]    |Gather and display account information.           |
+|groupadd|groupadd          |Create a new group.                               |
+|        |[group-name]      |                                                  |
+|groupmod|groupmod          |Modify an existing group.                         |
+|        |-options          |                                                  |
+|        |argument          |                                                  |
+|groupdel|groupdel          |Remove an existing group.                         |
+|        |[group-name]      |                                                  |
+|su      |su - [user-name]  |Switch user to the specified user or account name.|
+|sudo    |sudo -options     |Exercise delegated privileges.                    |
+|        |[command]         |                                                  |
+|pkexec  |pkexec program    |Allows an authorized user to execute an action.   |
+|        |argument          |                                                  |
 ### Permissions Configuration Commands
-|Command   |Syntax                                     |Purpose                                                              |
-|----------|-------------------------------------------|---------------------------------------------------------------------|
-|umask     |unmask {number}                            |Alter the default permissions on newly created files and directories.|
-|chmod     |chmod [options] {mode}{file/directory name}|Modify the permissions of a file or directory.                       |
+|Command|Syntax                          |Purpose                                                               |
+|-------|--------------------------------|----------------------------------------------------------------------|
+|umask  |unmask {number}                 |Alter the default permissions on newly created files and directories. |
+|chmod  |chmod [options]                 |Modify the permissions of a file or directory.                        |
+|       |{mode} {file/directory          |                                                                      |
+|       |name}                           |                                                                      |
+|chown  |Varies based on desired outcome:|Change the owner, the group, or both for a file or directory.         |
+|       |Change the owner but not the    |                                                                      |
+|       |group: chown {newowner}         |                                                                      |
+|       |{filename}                      |                                                                      |
+|       |Change both the owner           |                                                                      |
+|       |and the group: chown            |                                                                      |
+|       |{newowner}:{newgroup}           |                                                                      |
+|       |{filename}                      |                                                                      |
+|       |Change the group but            |                                                                      |
+|       |not the owner: chown            |                                                                      |
+|       |:{newgroup} {filename}          |                                                                      |
+|chgrp  |chgrp {group name}              |Change the group ownership of a file or directory.                    |
+|       |{file/directory name}           |                                                                      |
+|lsattr |lsattr [options]                |Lists attributes of a file or a directory.                            |
+|       |{file/directory names}          |                                                                      |
+|chattr |chattr [-R]                     |Change attributes of a file or a directory.                           |
+|       |[-v {version}]                  |                                                                      |
+|       |[+- {attributes}]               |                                                                      |
+|       |{file/directory                 |                                                                      |
+|       |names}                          |                                                                      |
+|getfacl|getfacl {filename}              |Retrieve the ACLs of files and directories.                           |
+|setfacl|setfacl [-bR]                   |Change the permissions associated with the ACL of a file or directory.|
+|       |[-mx {acl_spec}]                |                                                                      |
+|       |{file/directory                 |                                                                      |
+|       |names}                          |                                                                      |
 ### File Management Commands
 |Command|Syntax               |Purpose                                                                                                                                         |
 |-------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -90,7 +117,33 @@
 |       |{target-name}        |                                                                                                                                                |
 |       |{link-name}          |                                                                                                                                                |
 |cd     |cd {path}            |Move your present working directory to another directory.                                                                                       |
-|tree   |tree {directory-name}|Display the filesystem in a hierarchical structure, perhaps making it easier to understand a directory's location relative to other directories.|
+|tree   |tree {directory-     |Display the filesystem in a hierarchical structure, perhaps making it easier to understand a directory's location relative to other directories.|
+|       |name}                |                                                                                                                                                |
+|mkdir  |mkdir {new-          |Create directories along the specified path.                                                                                                    |
+|       |directory-name}      |                                                                                                                                                |
+|cp     |cp {source-file}     |Copy a file into a new location while retaining the source file in its original location.                                                       |
+|       |{new-file}           |                                                                                                                                                |
+|mv     |mv {source-          |Place the file elsewhere in the filesystem.                                                                                                     |
+|       |location}            |                                                                                                                                                |
+|       |{destination-        |                                                                                                                                                |
+|       |location}            |                                                                                                                                                |
+|mv     |mv {original-        |The rename command in Bash.                                                                                                                     |
+|       |filename}            |                                                                                                                                                |
+|       |{new-filename}       |                                                                                                                                                |
+|rmdir  |rm dir               |Remove (delete) a directory with no files in it.                                                                                                |
+|       |{directory-          |                                                                                                                                                |
+|       |name}                |                                                                                                                                                |
+|rm     |rm [options]         |Remove (delete) a file or non-empty directory.                                                                                                  |
+|       |{file-name}          |                                                                                                                                                |
+|head   |head {file-name}     |Displays the first 10 lines of a file.                                                                                                          |
+|tail   |tail {file-name}     |Displays the last 10 lines of a file.                                                                                                           |
+|grep   |grep {character-     |Search for strings of characters within a data stream. Grep is case-sensitive unless the -i option is used.                                     |
+|       |string}              |                                                                                                                                                |
+|xargs  |command              |Read from standard input and executes a command for each argument provided.                                                                     |
+|       |[options]            |                                                                                                                                                |
+|       |[arguments] |        |                                                                                                                                                |
+|       |xargs [options]      |                                                                                                                                                |
+|       |{command}            |                                                                                                                                                |
 ### Commands for Authoring Text Files
 ### Software Management Commands
 ### Commands for Managing Devices, Processes, Memory and the Kernal

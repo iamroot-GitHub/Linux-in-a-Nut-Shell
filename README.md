@@ -45,7 +45,7 @@
 |whatis    |whatis [command] |Procvides a brief description of the specified command.             |
 |whoami    |whoami           |Displays the username of the current user.                          |
 ### Commands Related to Administering Users and Groups
-|Command   |Syntax                                     |Purpose                             |
+|Command   |Syntax                                     |Purpose    |
 |----------|------------------|------------------------------------|
 |passwd    |passwd [user-name]|Manage user passwords.              |
 |chage     |chage -options    |Manage password settings.           |
@@ -57,6 +57,13 @@
 |umask     |unmask {number}                            |Alter the default permissions on newly created files and directories.|
 |chmod     |chmod [options] {mode}{file/directory name}|Modify the permissions of a file or directory.                       |
 ### File Management Commands
+|Command|Syntax          |Purpose                                                      |
+|-------|----------------|-------------------------------------------------------------|
+|stat   |stat {file-name}|Display the metadata in a relatively user-friendly structure.|
+|file   |file {file-name}|Display file information based on the file type.             |
+|ln     |ln [options]    |Create links, either hard or symbolic.                       |
+|       |{target-name}   |                                                             |
+|       |{link-name}     |                                                             |
 ### Commands for Authoring Text Files
 ### Software Management Commands
 ### Commands for Managing Devices, Processes, Memory and the Kernal

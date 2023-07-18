@@ -57,13 +57,15 @@
 |umask     |unmask {number}                            |Alter the default permissions on newly created files and directories.|
 |chmod     |chmod [options] {mode}{file/directory name}|Modify the permissions of a file or directory.                       |
 ### File Management Commands
-|Command|Syntax          |Purpose                                                      |
-|-------|----------------|-------------------------------------------------------------|
-|stat   |stat {file-name}|Display the metadata in a relatively user-friendly structure.|
-|file   |file {file-name}|Display file information based on the file type.             |
-|ln     |ln [options]    |Create links, either hard or symbolic.                       |
-|       |{target-name}   |                                                             |
-|       |{link-name}     |                                                             |
+|Command|Syntax               |Purpose                                                                                                                                         |
+|-------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+|stat   |stat {file-name}     |Display the metadata in a relatively user-friendly structure.                                                                                   |
+|file   |file {file-name}     |Display file information based on the file type.                                                                                                |
+|ln     |ln [options]         |Create links, either hard or symbolic.                                                                                                          |
+|       |{target-name}        |                                                                                                                                                |
+|       |{link-name}          |                                                                                                                                                |
+|cd     |cd {path}            |Move your present working directory to another directory.                                                                                       |
+|tree   |tree {directory-name}|Display the filesystem in a hierarchical structure, perhaps making it easier to understand a directory's location relative to other directories.|
 ### Commands for Authoring Text Files
 ### Software Management Commands
 ### Commands for Managing Devices, Processes, Memory and the Kernal
